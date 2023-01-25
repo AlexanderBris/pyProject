@@ -2,13 +2,13 @@
 # ЗАДАНИЕ 1
 a = "Python is the best programming language in the world"
 b = len(a)
-c = a[6: (b - 7)]
+c = a[5: -7]
 # результат
 print(c)
 
 # ЗАДАНИЕ 2
 a = "Guido van Rossum is the benevolent dictator for life"
-b = a[::3]
+b = a[2::3]
 # результат
 print(b)
 
